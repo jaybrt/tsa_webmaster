@@ -1,3 +1,14 @@
+# TSA WEBMASTER PROJECT
+
+Website should:
+feature the school’s career and technology/engineering program, TSA chapter, and the chapter’s ability to research and present a given topic pertaining to technology
+
+# TODO
+
+- Tech Program Section
+- TSA Chapter Section
+- Tech Topic Section
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
