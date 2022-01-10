@@ -1,8 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "./header.css";
 import lhsImg from "../../assets/lhsImg.png";
 
 const Header = () => {
+  const [email, setEmail] = useState("");
+
+  const handleInputChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handleEmailButtonPressed = () => {
+    console.log(email);
+  };
+
   return (
     <div className="lhs__header section__padding" id="home">
       <div className="lhs__header-content">
@@ -17,8 +27,14 @@ const Header = () => {
         </p>
 
         <div className="lhs__header-content__input">
-          <input type="email" placeholder="Your Email Address"></input>
-          <button type="button">Get In Contact</button>
+          <input
+            type="email"
+            placeholder="Your Email Address"
+            onChange={handleInputChange}
+          ></input>
+          <button type="button" onClick={handleEmailButtonPressed}>
+            Get In Contact
+          </button>
         </div>
       </div>
       <div className="lhs__header-image">
