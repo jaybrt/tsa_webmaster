@@ -1,0 +1,130 @@
+.lhs__header {
+  display: flex;
+  flex-direction: row;
+}
+
+.lhs__header-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  margin-right: 5rem;
+}
+
+.lhs__header-content h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  /* or 121% */
+
+  letter-spacing: -0.04em;
+  padding-bottom: 1rem;
+}
+
+.lhs__header-content p {
+  font-family: var(--font-family);
+  font-weight: 400;
+
+  font-size: 20px;
+  line-height: 28px;
+
+  color: var(--xanadu);
+  margin-top: 1.5rem;
+}
+
+.lhs__header-content__input {
+  width: 100%;
+  margin: 2rem 0 1rem;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.lhs__header-content__input input {
+  background: var(--russian-violet);
+  border-radius: 5px 0px 0px 5px;
+  font-family: var(--font-family);
+  font-size: 20px;
+  line-height: 27px;
+  color: var(--xanadu);
+  width: 100%;
+  flex: 2;
+  min-height: 50px;
+  border: 2px solid var(--russian-violet);
+  padding: 0 1rem;
+  color: #fff;
+}
+
+.lhs__header-content__input button {
+  flex: 0.6;
+  width: 100%;
+  min-height: 50px;
+  background: var(--xanadu);
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  padding: 0 1rem;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.lhs__header-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lhs__header-image img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+  .lhs__header {
+    flex-direction: column;
+  }
+  .lhs__header-content {
+    margin: 0 0 3rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .lhs__header h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .lhs__header p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .lhs__header-content__input input,
+  .lhs__header-content__input button {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .lhs__header h1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .lhs__header p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .lhs__header-content__input input,
+  .lhs__header-content__input button {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
