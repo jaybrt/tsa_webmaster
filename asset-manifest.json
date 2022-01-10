@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/tsa_webmaster/static/css/main.c2cf54b2.css",
-    "main.js": "/tsa_webmaster/static/js/main.c2357bf7.js",
+    "main.css": "/tsa_webmaster/static/css/main.5536bcc7.css",
+    "main.js": "/tsa_webmaster/static/js/main.882c1d32.js",
+    "static/media/lhsImg.png": "/tsa_webmaster/static/media/lhsImg.14c114f684ea58c0e34e.png",
     "static/media/logo.svg": "/tsa_webmaster/static/media/logo.42e450020e7c01443b73c05aee8d49c2.svg",
     "index.html": "/tsa_webmaster/index.html",
-    "main.c2cf54b2.css.map": "/tsa_webmaster/static/css/main.c2cf54b2.css.map",
-    "main.c2357bf7.js.map": "/tsa_webmaster/static/js/main.c2357bf7.js.map"
+    "main.5536bcc7.css.map": "/tsa_webmaster/static/css/main.5536bcc7.css.map",
+    "main.882c1d32.js.map": "/tsa_webmaster/static/js/main.882c1d32.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2cf54b2.css",
-    "static/js/main.c2357bf7.js"
+    "static/css/main.5536bcc7.css",
+    "static/js/main.882c1d32.js"
   ]
 }
