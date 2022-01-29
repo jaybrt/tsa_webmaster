@@ -11,7 +11,7 @@ import {
 
 import { CTA, Brand, Navbar } from "./components";
 
-import "./app.css";
+import "./App.css";
 
 const App = () => {
   return (

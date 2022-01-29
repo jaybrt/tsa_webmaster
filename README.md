@@ -11,8 +11,8 @@ feature the school’s career and technology/engineering program, TSA chapter, a
 - [x] add header #feat
 - [x] add email collection #feat
 - [ ] add auto send email to collected emails #feat
-  - [ ] create django REST API for emails #feat
-  - [ ] figure out how to send emails with python and gmail #feat
+  - [x] create django REST API for emails #feat
+  - [x] figure out how to send emails with python and gmail #feat
   - [ ] host api on django? #feat
 - [ ] add info about different tech classes #feat
 - [ ] add info about stem certificate program #feat
