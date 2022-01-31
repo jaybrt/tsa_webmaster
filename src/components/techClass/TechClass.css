@@ -1,0 +1,10 @@
+.lhs__techclass__container {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+}
+
+.lhs__techclass__img {
+  max-height: 300px;
+  max-width: max-content;
+}
