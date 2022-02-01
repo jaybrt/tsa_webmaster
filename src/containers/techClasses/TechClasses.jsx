@@ -4,6 +4,7 @@ import introCompSci from "../../assets/introCompSci.png";
 import apCS from "../../assets/coding.png";
 import woods from "../../assets/woods.jpg";
 import { Feature, TechClass } from "../../components";
+import photography from "../../assets/photography.jpg"
 
 const classesData = [
   {
@@ -45,7 +46,7 @@ const classesData = [
   {
     title: "Art Photography",
     text: "Explore the skill and purpose of digital photography in contemporary art. Learn the basics of photography, including aperture, shutter speed, exposure, composition, and Photoshop techniques.",
-    img: "",
+    img: "photography",
     alt: "photography",
   },
 ];
