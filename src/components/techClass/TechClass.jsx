@@ -1,12 +1,12 @@
-import React from 'react';
-import "./TechClass.css"
+import React from "react";
+import Feature from "../feature/Feature";
+import "./TechClass.css";
 
-const techClass = ({ cName, cDesc, cImg }) => {
+const techClass = ({ cName, cDesc, cImg, cImgAlt }) => {
   return (
-    <div className = "lhs__techclass__container">
-      <h1>{cName}</h1>
-      <p>{cDesc}</p>
-      <img className = "lhs__techclass__img" src={cImg} alt=""></img>
+    <div className="lhs__techclass__container">
+      <Feature title={cName} text={cDesc} />
+      <img className="lhs__techclass__img" src={cImg} alt={cImgAlt}></img>
     </div>
   );
 };

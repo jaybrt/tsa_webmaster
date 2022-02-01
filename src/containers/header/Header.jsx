@@ -20,10 +20,12 @@ const Header = () => {
           Learn about Littleton High School's Industry Leading STEM Program
         </h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempor
-          orci eu lobortis elementum nibh tellus molestie. Varius morbi enim
-          nunc faucibus a pellentesque.
+          Littleton High School is proud to offer students a multitude of
+          opportunities to engage in the STEM field and prepare them for
+          anything the future brings. We offer students an abundance of STEM
+          electives, the ability to participate in STEM related extracurricular
+          activities, and the opportunity to pursue a STEM Certificate which
+          signifies their interest and work in the subject.
         </p>
 
         <div className="lhs__header-content__input">

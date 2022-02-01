@@ -7,23 +7,23 @@ const Menu = () => {
   return (
     <>
       <p>
-        <a class="underline-hover-effect" href="#home">
+        <a className="underline-hover-effect" href="#home">
           Home
         </a>
       </p>
       <p>
-        <a class="underline-hover-effect" href="#tclasses">
+        <a className="underline-hover-effect" href="#tclasses">
           Tech Classes
         </a>
       </p>
       <p>
-        <a class="underline-hover-effect" href="#stemcert">
+        <a className="underline-hover-effect" href="#stemcert">
           Certificate
         </a>
       </p>
 
       <p>
-        <a class="underline-hover-effect" href="#tsa">
+        <a className="underline-hover-effect" href="#tsa">
           TSA
         </a>
       </p>

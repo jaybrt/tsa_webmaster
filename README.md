@@ -14,7 +14,8 @@ feature the school’s career and technology/engineering program, TSA chapter, a
   - [x] create django REST API for emails #feat
   - [x] figure out how to send emails with python and gmail #feat
   - [ ] host api on django? #feat
-- [ ] add info about different tech classes #feat
+- [x] add info about different tech classes #feat
+  - [ ] finish photos
 - [ ] add info about stem certificate program #feat
 - [ ] add info about stem facilities? #feat
 
