@@ -52,7 +52,7 @@ const classesData = [
 
 const TechClasses = () => {
   return (
-    <div className="lhs__techclasses section__margin_small" id="techClasses">
+    <div className="lhs__techclasses section__margin_small" id="tclasses">
       <div className="lhs__techclasses-feature lhs__techclasses-title">
         <Feature
           title="Tech Classes @ Littleton"
