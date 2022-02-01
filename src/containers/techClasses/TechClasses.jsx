@@ -3,7 +3,7 @@ import "./techclasses.css";
 import introCompSci from "../../assets/introCompSci.png";
 import apCS from "../../assets/coding.png";
 import woods from "../../assets/woods.jpg";
-import photography from "../../assets/photography.png";
+import photography from "../../assets/photography.jpg";
 import { Feature, TechClass } from "../../components";
 
 
