@@ -1,18 +1,22 @@
 {
   "files": {
     "main.css": "/tsa_webmaster/static/css/main.de5584b6.css",
-    "main.js": "/tsa_webmaster/static/js/main.10c9b0df.js",
+    "main.js": "/tsa_webmaster/static/js/main.6f14718b.js",
     "static/media/lhsImg.png": "/tsa_webmaster/static/media/lhsImg.14c114f684ea58c0e34e.png",
+    "static/media/3dprinter.jpg": "/tsa_webmaster/static/media/3dprinter.ee592b23f46ed40f52f6.jpg",
+    "static/media/engineeringandtechnology.jpg": "/tsa_webmaster/static/media/engineeringandtechnology.3ff60b47c5d7949e6533.jpg",
+    "static/media/animation.jpg": "/tsa_webmaster/static/media/animation.deb864eaa1429427fa9a.jpg",
+    "static/media/photography.jpg": "/tsa_webmaster/static/media/photography.244b95eb0179d74e84fe.jpg",
     "static/media/woods.jpg": "/tsa_webmaster/static/media/woods.1f47d03289e8b65f802e.jpg",
     "static/media/coding.png": "/tsa_webmaster/static/media/coding.486594a1abbfef4df792.png",
-    "static/media/logo.svg": "/tsa_webmaster/static/media/logo.42e450020e7c01443b73c05aee8d49c2.svg",
+    "static/media/logo.svg": "/tsa_webmaster/static/media/logo.f24ffc40d3807622612c55f9979442f4.svg",
     "static/media/introCompSci.png": "/tsa_webmaster/static/media/introCompSci.0e5bee2dd84396ac91d2.png",
     "index.html": "/tsa_webmaster/index.html",
     "main.de5584b6.css.map": "/tsa_webmaster/static/css/main.de5584b6.css.map",
-    "main.10c9b0df.js.map": "/tsa_webmaster/static/js/main.10c9b0df.js.map"
+    "main.6f14718b.js.map": "/tsa_webmaster/static/js/main.6f14718b.js.map"
   },
   "entrypoints": [
     "static/css/main.de5584b6.css",
-    "static/js/main.10c9b0df.js"
+    "static/js/main.6f14718b.js"
   ]
 }
