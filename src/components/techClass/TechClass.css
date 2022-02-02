@@ -3,6 +3,7 @@
   flex-direction: column;
   margin: 0.5rem;
   max-width: 400px;
+  flex: 1;
 }
 
 .lhs__techclass__img {
