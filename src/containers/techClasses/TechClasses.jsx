@@ -4,6 +4,9 @@ import introCompSci from "../../assets/introCompSci.png";
 import apCS from "../../assets/coding.png";
 import woods from "../../assets/woods.jpg";
 import photography from "../../assets/photography.jpg";
+import animation from "../../assets/animation.jpg";
+import IBDesignTech from "../../assets/3dprinter.jpg";
+import EngineeringTechnology from "../../assets/engineeringandtechnology.jpg";
 import { Feature, TechClass } from "../../components";
 
 
@@ -29,19 +32,19 @@ const classesData = [
   {
     title: "Engineering and Technology",
     text: "Learn 3D Computer Aided Drafting (CAD) software used in industry. Design, modify, assemble and manage complex parts in a 3D space as well as producing 2D drawings from the 3D models.",
-    img: "",
+    img: EngineeringTechnology,
     alt: "engineering",
   },
   {
     title: "IB Design Technology",
     text: "Learn to adapt to new experiences and to approach problems with the appropriate skills and the relevant techniques to identify the important elements and crucially develop optimum solutions",
-    img: "",
+    img: IBDesignTech,
     alt: "IB logo",
   },
   {
     title: "Animation",
     text: "An introduction to various aspects of the animation industry. Learn the skills to create animations including, but not limited to, story writing, storyboards, character design, the Principles of Animation, and shots/angles.",
-    img: "",
+    img: animation,
     alt: "animation",
   },
   {
