@@ -57,3 +57,16 @@
 .lhs__stemcertificate-container > :nth-child(1) {
   margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 650px) {
+  .lhs__stemcertificate-features {
+    flex-direction: column;
+  }
+  .lhs__stemcertificate-container .lhs__features-container__feature {
+    flex-direction: column;
+  }
+}
+
+.lhs__stemcertificate-container .lhs__features-container__feature-text {
+  padding-right: 1rem;
+}

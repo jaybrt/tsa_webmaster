@@ -79,7 +79,7 @@
   flex-direction: column;
 
   text-align: end;
-  background: var(--color-footer);
+  background: var(--color-alt);
   padding: 2rem;
   position: absolute;
   top: 40px;
