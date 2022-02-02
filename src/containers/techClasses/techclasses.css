@@ -44,9 +44,9 @@
 }
 
 .lhs__techclasses-container .lhs__features-container__feature {
-  flex: 1;
-  margin: 1rem;
-  min-width: 210px;
+  flex: 1 1 33%;
+  margin: 1rem 2rem 1rem;
+  min-width: 300px;
   display: unset;
   flex-direction: column;
   justify-content: flex-start;
@@ -76,6 +76,12 @@
   }
 }
 
+@media screen and (max-width: 450px) {
+  .lhs__techclasses-container .lhs__features-container__feature {
+    min-width: 200px;
+  }
+}
+
 @media screen and (max-width: 350px) {
   /* Customizing feature component as per needs */
   .lhs__techclasses-container .lhs__features-container__feature {
@@ -89,4 +95,5 @@
   flex-wrap: wrap;
   flex-direction: row;
   margin-top: 2rem;
+  justify-content: space-around;
 }

@@ -1,0 +1,59 @@
+.lhs__stemcertificate-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    circle at 30% -100%,
+    #271449 1%,
+    #691378 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 30% -100%,
+    #271449 1%,
+    #691378 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(circle at 30% -100%, #271449 1%, #691378 100%);
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 30% -100%,
+    #271449 1%,
+    #691378 100%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(circle at 30% -100%, #271449 1%, #691378 100%);
+}
+
+.lhs__stemcertificate-container .lhs__features-container__feature-title {
+  max-width: 400px;
+}
+
+.lhs__stemcertificate-container .lhs__features-container__feature-text {
+  max-width: 800px;
+}
+
+.lhs__stemcertificate-features > * {
+  flex: 1;
+  display: unset;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.lhs__stemcertificate-features {
+  display: flex;
+}
+
+.lhs__stemcertificate-features .lhs__features-container__feature-text {
+  margin-top: 1rem;
+}
+
+.lhs__stemcertificate-container > :nth-child(1) {
+  margin-bottom: 2rem;
+}

@@ -1,15 +1,8 @@
 import React from "react";
 
-import {
-  Footer,
-  Blog,
-  Possibility,
-  Features,
-  TechClasses,
-  Header,
-} from "./containers";
+import { Footer, StemCertificate, TechClasses, Header } from "./containers";
 
-import { CTA, Navbar } from "./components";
+import { Navbar } from "./components";
 
 import "./App.css";
 
@@ -21,10 +14,7 @@ const App = () => {
         <Header />
       </div>
       <TechClasses />
-      <Features />
-      <Possibility />
-      <CTA />
-      <Blog />
+      <StemCertificate />
       <Footer />
     </div>
   );
