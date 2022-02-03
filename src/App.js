@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Footer, StemCertificate, TechClasses, Header } from "./containers";
+import { Footer, StemCertificate, TechClasses, Header, Tsa } from "./containers";
 
 import { Navbar } from "./components";
 
@@ -15,6 +15,7 @@ const App = () => {
       </div>
       <TechClasses />
       <StemCertificate />
+      <Tsa />
       <Footer />
     </div>
   );

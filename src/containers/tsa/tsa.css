@@ -1,0 +1,92 @@
+.lhs__tsa {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    circle at 30% -100%,
+    #271449 1%,
+    #691378 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 30% -100%,
+    #271449 1%,
+    #691378 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(circle at 30% -100%, #271449 1%, #691378 100%);
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 30% -100%,
+    #271449 1%,
+    #691378 100%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(circle at 30% -100%, #271449 1%, #691378 100%);
+}
+.lhs__tsa-header .lhs__features-container__feature-text {
+  max-width: 800px;
+}
+
+.lhs__tsa-container > * {
+  flex: 1;
+  display: unset;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.lhs__tsa-container .lhs__features-container__feature-text {
+  margin-top: 1rem;
+}
+
+.lhs__tsa-container {
+  display: flex;
+}
+
+.lhs__tsa-officers_list p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--xanadu);
+}
+
+.lhs__tsa-officers_list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.lhs__tsa-officers_list > * {
+  flex: 1;
+}
+
+@media screen and (max-width: 650px) {
+  .lhs__tsa-container {
+    flex-direction: column;
+  }
+  .lhs__tsa-header .lhs__features-container__feature {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .lhs__tsa-officers_list p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+.lhs__tsa-container .lhs__features-container__feature-text {
+  padding-right: 1rem;
+}
+
+.lhs__tsa-officers_list .lhs__features-container__feature-text {
+  padding-right: 1rem;
+}
