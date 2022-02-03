@@ -4,8 +4,8 @@ import "./footer.css";
 const Footer = () => {
   return (
     <div className="lhs__footer">
-      <div className="lhs__footer-title gradient__text">
-        <h1>References & Attributions</h1>
+      <div className="lhs__footer-title">
+        <h1 className="gradient__text">References & Attributions</h1>
       </div>
       <div className="lhs__footer-container">
         <a
